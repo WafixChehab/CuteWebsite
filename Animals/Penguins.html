@@ -2,9 +2,10 @@
 <html>
     <head>
     <link rel="stylesheet" href="../Main.css"> 
+    <script type="text/javascript" src="/testdraw.js"></script>
     </head>
 
-    <body>
+    <body onload="init();">
 
        <header>
          <ul class="nav">
@@ -15,10 +16,25 @@
          </ul>
        </header>
 
-       <section>
+       <section >
+        <div align="center">
         <h1>This is a cute Penguins Page.</h1>
-       </section>
-      
+        <h2>Please draw a bowtie on the Penguin.</h2>
+        </div>
+
+       
+
+      <section>
+        <div>
+          <div id="sketchpadapp" >
+                  <canvas id="sketchpad" height="350" width="350" style="background: url('../Images/penguinbow.jpg');  background-size: 100% 100%; ">
+                  </canvas>
+                  <div class="leftside">
+                      <input type="submit" value="Clear" id="clearbutton" onclick="clearCanvas(canvas,ctx);">
+                 </div>
+              </div>
+          </div>
+      </section>
        
       
     </body>
