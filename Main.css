@@ -46,3 +46,8 @@ figure figcaption{
 footer{
     text-align: center;
 }
+@media screen and (max-width: 450px){
+ body li a {
+     font-size: 20px ;
+ }
+}
