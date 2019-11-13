@@ -2,6 +2,8 @@
 <html>
     <head>
     <link rel="stylesheet" href="../Main.css"> 
+    <script src="../GoodDog.js" type="text/javascript">window.onload();</script>
+    <audio src="../woofsound.mp3" id="subwoof"></audio>
     </head>
 
     <body>
@@ -16,11 +18,19 @@
        </header>
 
        <section>
-        <h1>This is a cute Dog Page.</h1>
+        <h1 align="center">This is a cute Dog Page.</h1>
+        <h2 align="center">Who's the Good Dog?<h2>
        </section>
-      
-       
-      
+      <ul class="DogImgLst">
+        <li><a data-img="Dog1" id="Dog1Lnk" href="#">Dog1</a></li>
+        <li><a data-img="Dog2" id="Dog2Lnk" href="#">Dog2</a></li>
+        <li><a data-img="Dog3" id="Dog3Lnk" href="#">Dog3</a></li>
+        <li><a data-img="DogsAll" id="DogsAllLnk" href="#">All Dogs</a></li>
+      </ul>
+     <img id="Dog1" src="../Images/Dog1.jpg"  alt="Dog1">
+     <img id="Dog2" src="../Images/Dog2.gif"  alt="Dog2">
+     <img id="Dog3" src="../Images/Dog3.jpg"  alt="Dog3">
+     
     </body>
 
 </html>

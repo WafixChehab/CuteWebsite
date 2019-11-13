@@ -100,6 +100,36 @@ footer{
     body li a {
         font-size: 20px ;
     }
-    
    
    }
+
+ul.DogImgLst{
+    list-style: none;
+    text-align: center;
+    
+}
+ul.DogImgLst li{
+    display: inline;
+    
+    background-color: whitesmoke;
+    margin: 30px;
+}
+ul.DogImgLst li a{
+    color: rgb(100, 70, 30);
+}
+img.hide{
+    max-width: 300px;
+    max-height: 300px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+img.show{
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
